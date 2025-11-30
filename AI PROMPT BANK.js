@@ -3,9 +3,9 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"AI PROMPT BANK_atlas_1", frames: [[0,1026,1650,298],[1655,1410,350,168],[1655,1580,350,168],[1655,1750,350,168],[989,1326,331,217],[1322,1326,331,217],[614,1326,373,245],[614,1817,331,217],[989,1545,331,217],[1322,1545,331,217],[614,1573,369,242],[985,1764,331,217],[0,0,1792,1024],[1318,1764,326,190],[1652,1026,326,190],[1655,1218,326,190],[0,1326,612,620]]},
+		{name:"AI PROMPT BANK_atlas_1", frames: [[1730,657,305,75],[1730,734,305,75],[1034,968,353,87],[1676,811,305,75],[1676,888,305,75],[1676,965,305,75],[0,1197,350,86],[1675,1042,305,75],[1299,1077,305,75],[1297,1154,305,75],[0,1894,341,84],[1297,1231,305,75],[1606,1119,305,75],[1604,1196,305,75],[0,1285,347,85],[1604,1273,305,75],[355,1149,305,75],[352,1226,305,75],[944,1057,353,87],[349,1303,305,75],[349,1380,305,75],[349,1457,305,75],[0,1372,347,85],[349,1534,305,75],[349,1611,305,75],[346,1688,305,75],[942,1146,353,87],[346,1765,305,75],[346,1842,305,75],[343,1919,305,75],[1390,190,341,84],[659,1235,305,75],[966,1235,305,75],[656,1312,305,75],[307,740,364,90],[656,1389,305,75],[1733,378,275,91],[1733,471,275,91],[963,1312,305,75],[656,1466,305,75],[0,1108,353,87],[963,1389,305,75],[656,1543,305,75],[963,1466,305,75],[673,790,359,88],[963,1543,305,75],[1733,284,279,92],[656,1620,305,75],[963,1620,305,75],[1535,97,369,91],[653,1697,305,75],[653,1774,305,75],[960,1697,305,75],[586,1060,354,87],[960,1774,305,75],[653,1851,305,75],[960,1851,305,75],[673,880,359,88],[650,1928,305,75],[957,1928,305,75],[1273,1308,305,75],[307,832,364,90],[1270,1385,305,75],[1270,1462,305,75],[1270,1539,305,75],[921,296,364,90],[1270,1616,305,75],[1580,1350,305,75],[1577,1427,305,75],[834,603,378,93],[1577,1504,305,75],[1577,1581,305,75],[1577,1658,305,75],[1034,790,354,87],[1270,1693,305,75],[1390,789,284,94],[1267,1770,305,75],[1267,1847,305,75],[1535,0,384,95],[1577,1735,305,75],[1574,1812,305,75],[1574,1889,305,75],[1034,879,354,87],[1267,1924,305,75],[1574,1966,305,75],[220,924,364,90],[1390,885,284,94],[1389,981,284,94],[1733,190,280,92],[220,1016,364,90],[1730,564,275,91],[834,698,364,90],[834,508,379,93],[1390,276,341,84],[1390,362,341,84],[0,1633,344,85],[1390,534,338,83],[0,0,305,146],[0,148,305,146],[1390,619,338,83],[1390,448,341,84],[307,0,305,146],[0,296,305,146],[307,148,305,146],[614,0,305,146],[0,444,305,146],[307,296,305,146],[614,148,305,146],[921,0,305,146],[0,592,305,146],[307,444,305,146],[614,296,305,146],[921,148,305,146],[1228,0,305,146],[0,740,305,146],[307,592,305,146],[586,970,356,88],[0,1459,347,85],[1390,704,338,83],[0,1546,347,85],[0,1720,344,85],[0,1807,344,85],[614,444,680,62],[0,888,218,192],[614,508,218,192]]},
 		{name:"AI PROMPT BANK_atlas_2", frames: [[1730,336,305,146],[1730,484,305,146],[0,170,344,165],[1375,503,305,146],[1682,632,305,146],[1375,651,305,146],[1035,667,305,146],[683,669,305,146],[1682,780,305,146],[1342,799,305,146],[990,815,305,146],[683,817,305,146],[346,170,344,165],[340,832,305,146],[0,834,305,146],[1649,928,305,146],[1056,0,347,166],[1297,947,305,146],[990,963,305,146],[647,965,305,146],[307,980,305,146],[0,982,305,146],[1604,1076,305,146],[1405,0,347,166],[1297,1095,305,146],[954,1111,305,146],[614,1113,305,146],[692,170,344,165],[307,1128,305,146],[0,1130,305,146],[1604,1224,305,146],[343,504,338,162],[1261,1243,305,146],[921,1259,305,146],[614,1261,305,146],[1056,168,347,166],[307,1276,305,146],[0,1278,305,146],[1568,1372,305,146],[1038,336,344,165],[1228,1391,305,146],[921,1407,305,146],[614,1409,305,146],[343,668,338,162],[307,1424,305,146],[0,1426,305,146],[1535,1520,305,146],[0,670,338,162],[1228,1539,305,146],[921,1555,305,146],[614,1557,305,146],[0,0,350,168],[307,1572,305,146],[0,1574,305,146],[0,1722,305,146],[1035,503,338,162],[0,1870,305,146],[307,1720,305,146],[307,1868,305,146],[1384,336,344,165],[614,1705,305,146],[614,1853,305,146],[921,1703,305,146],[352,0,350,168],[921,1851,305,146],[1535,1668,305,146],[1228,1687,305,146],[692,337,341,164],[1228,1835,305,146],[1535,1816,305,146],[692,503,341,164],[0,337,344,165],[346,337,344,165],[704,0,350,168],[1405,168,347,166],[0,504,341,164]]},
-		{name:"AI PROMPT BANK_atlas_3", frames: [[1730,657,305,75],[1730,734,305,75],[1034,968,353,87],[1676,811,305,75],[1676,888,305,75],[1676,965,305,75],[0,1197,350,86],[1675,1042,305,75],[1299,1077,305,75],[1297,1154,305,75],[0,1894,341,84],[1297,1231,305,75],[1606,1119,305,75],[1604,1196,305,75],[0,1285,347,85],[1604,1273,305,75],[355,1149,305,75],[352,1226,305,75],[944,1057,353,87],[349,1303,305,75],[349,1380,305,75],[349,1457,305,75],[0,1372,347,85],[349,1534,305,75],[349,1611,305,75],[346,1688,305,75],[942,1146,353,87],[346,1765,305,75],[346,1842,305,75],[343,1919,305,75],[1390,190,341,84],[659,1235,305,75],[966,1235,305,75],[656,1312,305,75],[307,740,364,90],[656,1389,305,75],[1733,378,275,91],[1733,471,275,91],[963,1312,305,75],[656,1466,305,75],[0,1108,353,87],[963,1389,305,75],[656,1543,305,75],[963,1466,305,75],[673,790,359,88],[963,1543,305,75],[1733,284,279,92],[656,1620,305,75],[963,1620,305,75],[1535,97,369,91],[653,1697,305,75],[653,1774,305,75],[960,1697,305,75],[586,1060,354,87],[960,1774,305,75],[653,1851,305,75],[960,1851,305,75],[673,880,359,88],[650,1928,305,75],[957,1928,305,75],[1273,1308,305,75],[307,832,364,90],[1270,1385,305,75],[1270,1462,305,75],[1270,1539,305,75],[921,296,364,90],[1270,1616,305,75],[1580,1350,305,75],[1577,1427,305,75],[834,603,378,93],[1577,1504,305,75],[1577,1581,305,75],[1577,1658,305,75],[1034,790,354,87],[1270,1693,305,75],[1390,789,284,94],[1267,1770,305,75],[1267,1847,305,75],[1535,0,384,95],[1577,1735,305,75],[1574,1812,305,75],[1574,1889,305,75],[1034,879,354,87],[1267,1924,305,75],[1574,1966,305,75],[220,924,364,90],[1390,885,284,94],[1389,981,284,94],[1733,190,280,92],[220,1016,364,90],[1730,564,275,91],[834,698,364,90],[834,508,379,93],[1390,276,341,84],[1390,362,341,84],[0,1633,344,85],[1390,534,338,83],[0,0,305,146],[0,148,305,146],[1390,619,338,83],[1390,448,341,84],[307,0,305,146],[0,296,305,146],[307,148,305,146],[614,0,305,146],[0,444,305,146],[307,296,305,146],[614,148,305,146],[921,0,305,146],[0,592,305,146],[307,444,305,146],[614,296,305,146],[921,148,305,146],[1228,0,305,146],[0,740,305,146],[307,592,305,146],[586,970,356,88],[0,1459,347,85],[1390,704,338,83],[0,1546,347,85],[0,1720,344,85],[0,1807,344,85],[614,444,680,62],[0,888,218,192],[614,508,218,192]]},
+		{name:"AI PROMPT BANK_atlas_3", frames: [[0,1026,1650,298],[1655,1410,350,168],[1655,1580,350,168],[1655,1750,350,168],[989,1326,331,217],[1322,1326,331,217],[614,1326,373,245],[614,1817,331,217],[989,1545,331,217],[1322,1545,331,217],[614,1573,369,242],[985,1764,331,217],[0,0,1792,1024],[1318,1764,326,190],[1652,1026,326,190],[1655,1218,326,190],[0,1326,612,620]]},
 		{name:"AI PROMPT BANK_atlas_4", frames: [[1535,539,228,75],[1765,539,228,75],[0,616,228,75],[230,616,228,75],[460,616,228,75],[690,616,228,75],[920,616,228,75],[1150,616,228,75],[1380,616,228,75],[1610,616,228,75],[0,693,228,75],[230,693,228,75],[0,0,305,75],[307,0,305,75],[460,693,228,75],[690,693,228,75],[920,693,228,75],[1150,693,228,75],[1380,693,228,75],[1610,693,228,75],[0,770,228,75],[230,770,228,75],[460,770,228,75],[614,0,305,75],[921,0,305,75],[1228,0,305,75],[690,770,228,75],[920,770,228,75],[1150,770,228,75],[1535,0,305,75],[0,77,305,75],[307,77,305,75],[614,77,305,75],[921,77,305,75],[1228,77,305,75],[1535,77,305,75],[0,154,305,75],[307,154,305,75],[614,154,305,75],[921,154,305,75],[1228,154,305,75],[1535,154,305,75],[0,231,305,75],[307,231,305,75],[614,231,305,75],[921,231,305,75],[1228,231,305,75],[1535,231,305,75],[0,308,305,75],[307,308,305,75],[614,308,305,75],[921,308,305,75],[1228,308,305,75],[1535,308,305,75],[0,385,305,75],[307,385,305,75],[614,385,305,75],[921,385,305,75],[1228,385,305,75],[1535,385,305,75],[0,462,305,75],[307,462,305,75],[614,462,305,75],[921,462,305,75],[1228,462,305,75],[1535,462,305,75],[0,539,305,75],[307,539,305,75],[614,539,305,75],[921,539,305,75],[1228,539,305,75]]}
 ];
 
@@ -31,7 +31,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_282 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -80,7 +80,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_275 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -108,7 +108,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_271 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
@@ -192,7 +192,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_259 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
@@ -262,28 +262,28 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_249 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_248 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_247 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_246 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
@@ -346,28 +346,28 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_237 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_236 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_235 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_234 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
@@ -402,84 +402,84 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_229 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_228 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_227 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_226 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_225 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_224 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_223 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_222 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_221 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_220 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_219 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_218 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
@@ -514,56 +514,56 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_213 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_212 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_211 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_210 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_209 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_208 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_207 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_206 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
@@ -598,28 +598,28 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_201 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_200 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_199 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_198 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
@@ -766,28 +766,28 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_177 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_176 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_175 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_174 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
@@ -808,7 +808,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_171 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
@@ -836,7 +836,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_167 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
@@ -850,56 +850,56 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_165 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_164 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_163 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_162 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_161 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_160 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_159 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_158 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
 
@@ -920,7 +920,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_155 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
@@ -934,196 +934,196 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_153 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(47);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_152 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(48);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_151 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(49);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_150 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(50);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_149 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(51);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_148 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(52);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_147 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(53);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_146 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(54);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_145 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(55);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_144 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(56);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_143 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(57);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_142 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(58);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_141 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(59);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_140 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(60);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_139 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(61);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_138 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(62);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_137 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(63);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_136 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(64);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_135 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(65);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_134 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(66);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_133 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(67);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_132 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(68);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_131 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(69);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_130 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(70);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_129 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(71);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_128 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(72);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_127 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(73);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_126 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(74);
 }).prototype = p = new cjs.Sprite();
 
@@ -1144,7 +1144,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_123 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(75);
 }).prototype = p = new cjs.Sprite();
 
@@ -1158,63 +1158,63 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_121 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(76);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_120 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(77);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_119 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(78);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_118 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(79);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_117 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(80);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_116 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(81);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_115 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(82);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_114 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(83);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_113 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(84);
 }).prototype = p = new cjs.Sprite();
 
@@ -1228,7 +1228,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_111 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(85);
 }).prototype = p = new cjs.Sprite();
 
@@ -1256,7 +1256,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_107 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(86);
 }).prototype = p = new cjs.Sprite();
 
@@ -1284,7 +1284,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_103 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(87);
 }).prototype = p = new cjs.Sprite();
 
@@ -1312,7 +1312,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_99 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(88);
 }).prototype = p = new cjs.Sprite();
 
@@ -1340,7 +1340,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_95 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(89);
 }).prototype = p = new cjs.Sprite();
 
@@ -1368,7 +1368,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_91 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(90);
 }).prototype = p = new cjs.Sprite();
 
@@ -1396,7 +1396,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_87 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(91);
 }).prototype = p = new cjs.Sprite();
 
@@ -1424,7 +1424,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_83 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(92);
 }).prototype = p = new cjs.Sprite();
 
@@ -1452,7 +1452,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_79 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(93);
 }).prototype = p = new cjs.Sprite();
 
@@ -1480,7 +1480,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_75 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(94);
 }).prototype = p = new cjs.Sprite();
 
@@ -1508,7 +1508,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_71 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(95);
 }).prototype = p = new cjs.Sprite();
 
@@ -1536,7 +1536,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_67 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(96);
 }).prototype = p = new cjs.Sprite();
 
@@ -1557,7 +1557,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_64 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(97);
 }).prototype = p = new cjs.Sprite();
 
@@ -1571,7 +1571,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_62 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(98);
 }).prototype = p = new cjs.Sprite();
 
@@ -1592,7 +1592,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_59 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(99);
 }).prototype = p = new cjs.Sprite();
 
@@ -1620,7 +1620,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_55 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(100);
 }).prototype = p = new cjs.Sprite();
 
@@ -1634,14 +1634,14 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_53 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(101);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_52 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(102);
 }).prototype = p = new cjs.Sprite();
 
@@ -1655,21 +1655,21 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_50 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(103);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_49 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(104);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_48 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(105);
 }).prototype = p = new cjs.Sprite();
 
@@ -1683,21 +1683,21 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_46 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(106);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_45 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(107);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_44 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(108);
 }).prototype = p = new cjs.Sprite();
 
@@ -1711,21 +1711,21 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_42 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(109);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_41 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(110);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_40 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(111);
 }).prototype = p = new cjs.Sprite();
 
@@ -1739,21 +1739,21 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_38 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(112);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_37 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(113);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_36 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(114);
 }).prototype = p = new cjs.Sprite();
 
@@ -1767,7 +1767,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_34 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(115);
 }).prototype = p = new cjs.Sprite();
 
@@ -1788,7 +1788,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_31 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(116);
 }).prototype = p = new cjs.Sprite();
 
@@ -1816,7 +1816,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_27 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(117);
 }).prototype = p = new cjs.Sprite();
 
@@ -1844,7 +1844,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_23 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(118);
 }).prototype = p = new cjs.Sprite();
 
@@ -1872,7 +1872,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_19 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(119);
 }).prototype = p = new cjs.Sprite();
 
@@ -1900,7 +1900,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_15 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(120);
 }).prototype = p = new cjs.Sprite();
 
@@ -1928,7 +1928,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_11 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(121);
 }).prototype = p = new cjs.Sprite();
 
@@ -1942,112 +1942,112 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_9 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_8 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_7 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_6 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_5 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(122);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bgApps = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.button1GOLD = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.button1 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.button1_1 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.button2GOLD = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(123);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.button2 = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
 	this.gotoAndStop(124);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.panel = function() {
-	this.initialize(ss["AI PROMPT BANK_atlas_1"]);
+	this.initialize(ss["AI PROMPT BANK_atlas_3"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -4596,7 +4596,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.button1_1();
 	this.instance.setTransform(34,-14,0.6702,0.5279);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:34,y:-14}},{t:this.lblSubject,p:{scaleX:1,scaleY:1,x:137.4,y:2,color:"#000000"}}]}).to({state:[{t:this.instance,p:{scaleX:0.7684,scaleY:0.6052,x:18,y:-21}},{t:this.lblSubject,p:{scaleX:1.1465,scaleY:1.1465,x:136.5226,y:-2.9887,color:"#FF9900"}}]},1).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:34,y:-14}},{t:this.lblSubject,p:{scaleX:1,scaleY:1,x:137.4,y:2,color:"#000000"}}]},1).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:34,y:-14}},{t:this.lblSubject,p:{scaleX:1,scaleY:1,x:137.4,y:2,color:"#000000"}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:34,y:-14}},{t:this.lblSubject,p:{scaleX:1,scaleY:1,x:137.4,y:2,color:"#000000",text:"Subjek:\n(pilih)"}}]}).to({state:[{t:this.instance,p:{scaleX:0.7684,scaleY:0.6052,x:18,y:-21}},{t:this.lblSubject,p:{scaleX:1.1465,scaleY:1.1465,x:136.5226,y:-2.9887,color:"#FF9900",text:"Subjek:\n(pilih)"}}]},1).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:34,y:-14}},{t:this.lblSubject,p:{scaleX:1,scaleY:1,x:137.4,y:2,color:"#000000",text:"Subjek:\n(pilih)"}}]},1).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:34,y:-14}},{t:this.lblSubject,p:{scaleX:1,scaleY:1,x:137.4,y:2,color:"#000000",text:"Subjek\n(pilih)"}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
